@@ -9,7 +9,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(array)
- return array.each { |w| puts w.upcase + '!' } 
+ return array.each { |w| puts w.capitalize + '!' } 
  
 end
 
