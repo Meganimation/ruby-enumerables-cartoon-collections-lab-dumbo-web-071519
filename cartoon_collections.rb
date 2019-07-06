@@ -21,14 +21,7 @@ def long_planeteer_calls(calls_long)
 end
 end
 
-def find_the_cheese(contains_cheddar)
+def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  i = 0 
-  while contains_cheddar.length > i
-  if contains_cheddar.include ? cheese_types
-    return contains_cheddar[i]
-  else puts 'no cheese'
-    i = i + 1 
-  end
-end
+ cheese
 end
